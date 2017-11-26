@@ -251,7 +251,7 @@ defaults:
       comments: # true
       share: true
       related: true
-
+include: _pages
 defaults:
   # _pages
   - scope:
