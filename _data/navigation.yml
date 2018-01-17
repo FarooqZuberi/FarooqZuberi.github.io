@@ -10,9 +10,7 @@ main:
     url: /blog/
   - title: "Idea Center"
     url: //idea-center/
-  - title: "Learnning Center"
+  - title: "Learning Center"
     url: /learning-center/
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Sitemap"
-    url: /sitemap/
+#  - title: "Quick-Start Guide"
+#    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
