@@ -4,4 +4,9 @@ permalink: /idea-center/
 layout: single
 ---
 	  
-This resume page
+This Idea Center page
+
+
+{% for post in site.categories.Idea %}
+  {% include archive-single.html %}
+{% endfor %}

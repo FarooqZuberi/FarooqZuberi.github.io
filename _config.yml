@@ -11,7 +11,7 @@ minimal_mistakes_skin    : "air" # "aqua", "default", "contrast", "dark", "dirt"
 locale                   : "en"
 title                    : "Farooq Zuberi"
 title_separator          : "-"
-name                     : "Farooq Ahmed Zuberi - machine learning, artificial intelligence,"
+name                     : "Farooq Zuberi - machine learning, artificial intelligence,"
 description              : "Workspace."
 url                      : https://farooqzuberi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -83,25 +83,25 @@ analytics:
 
 # Site Author
 author:
-  name             : "Farooq Ahmed Zuberi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am not particularly an amazing person."
+  name             : "Farooq Zuberi"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Computer Scientist, AI Geek"
   location         : "Stuttgart, Germany"
-  email            :
+  email            : farooqahmedzuberi@gmail.com
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : farooqahmedzuberi
   foursquare       :
-  github           :
+  github           : FarooqZuberi
   gitlab           :
-  google_plus      :
+  google_plus      : 
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "farooq-zuberi"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
