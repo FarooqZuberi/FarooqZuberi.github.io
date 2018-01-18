@@ -5,3 +5,8 @@ layout: single
 ---
 	  
 This Idea Center page
+
+
+{% for post in site.categories.Idea %}
+  {% include archive-single.html %}
+{% endfor %}
