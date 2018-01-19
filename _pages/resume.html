@@ -25,61 +25,101 @@ gallery:
         
         <h2>Skills</h2>
 
+
 <style>
 * {box-sizing:border-box}
+.autogen_section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.autogen_col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.autogen_col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.autogen_group:before,
+.autogen_group:after { content:""; display:table; }
+.autogen_group:after { clear:both;}
+.autogen_group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
 
 /* Container for skill bars */
+/* Container for skill bars */
 .progress {
-    width: 50%; /* Full width */
+    width: 100%; /* Full width */
     background-color: #ddd; /* Grey background */
-	border-radius:16px;
-	height: 28px;
+	border-radius:10px;
+	height: 30px;
 }
 
 .skills {
     text-align: right; /* Right-align text */
     padding-right: 20px; /* Add some right padding */
-    line-height: 28px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    line-height: 30px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
     color: white; /* White text color */
 	background-color: #0092CA;
-	border-radius:16px;
-	height: 28px;
+	border-radius:10px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
+.cpp {width: 90%; }
+.pyt {width: 80%;} 
+.jsp {width: 65%;} 
+.php {width: 60%;} 
 
-.html {width: 90%; } /* Green */
-.css {width: 80%;} /* Blue */
-.jsp {width: 65%;} /* Red */
-.php {width: 60%;} /* Dark Grey */
+.caffe {width: 80%;} 
+.torch {width: 65%;} 
+.scikit-learn {width: 60%;} 
 </style>
 
-<p class="">HTML</p>
-<div class="progress">
-  <div class="skills html">90%</div>
+
+<div class="autogen_section autogen_group">
+	<div class="autogen_col span_1_of_2">
+		<div class="progress">
+		  <div class="skills cpp">90%</div>
+		</div>
+		<div class="progress">
+		  <div class="skills pyt">90%</div>
+		</div>
+		<div class="progress">
+		  <div class="skills jsp">90%</div>
+		</div>
+	</div>
+	<div class="autogen_col span_1_of_2">
+		<div class="progress"><div class="skills caffe">Caffe</div></div>
+		<div class="progress"><div class="skills torch">Torch</div></div>
+		<div class="progress"><div class="skills scikit-learn">scikit-learn</div></div>
+
+	</div>
 </div>
 
-<p>CSS</p>
-<div class="progress">
-  <div class="skills css">80%</div>
-</div>
-
-<p class="">JavaScript</p>
-<div class="progress">
-  <div class="skills jsp">65%</div>
-</div>
-
-<p class="">PHP</p>
-<div class="progress">
-  <div class="skills php">60%</div>
-</div>
-
-
-
-| Machine Learning													| Software Engi   |Others  | Robotics and CV	 | 
-| -----------------------------------------------------------------	| --------------- | ------ | ------------------- |
-| <div class="progress"><div class="skills php">Caffe</div></div>  	| $1     		  | Because|that's all Steve Jobs|
-| [Jane Doe](#)   													| $100K    	  	  | For all| the blogging she doe|
-| [Fred Bloggs](#)													| $100M  		  | Picture|s are worth a thousan|
-| [Jane Bloggs](#)													| $100B  		  | With ha|ir like that?! Enough|
 
 
 
