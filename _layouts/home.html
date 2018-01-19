@@ -1,0 +1,22 @@
+---
+layout: archive
+---
+
+<p>
+I am Farooq - machine learning engineer by profession. I wish to use this blog to manage my portfolio as a practitioner, researcher and entrepreneur. .
+</p>
+<p>
+Farooqistan - means the land of Farooq (which is my name). It signifies that this blog is a personal space and I wish to use it to manage my and achieve personal career goals and showcase them in a portfolio.
+</p>
+<p>
+
+This blog is in migration mode. 
+</p>
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
