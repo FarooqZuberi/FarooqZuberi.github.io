@@ -3,25 +3,18 @@ title: Resume
 permalink: /resume/
 layout: single
 
-gallery:
-  - url: https://flic.kr/p/8a6Ven
-    image_path: https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg
-    alt: "Black and grays with a hint of green"
-  - url: https://flic.kr/p/8a738X
-    image_path: https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg
-    alt: "Made for open text placement"
-  - url: https://flic.kr/p/8a6VXP
-    image_path: https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg
-    alt: "Fog in the trees"
-
+#gallery:
+#  - url: https://flic.kr/p/8a6Ven
+#    image_path: https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg
+#    alt: "Black and grays with a hint of green"
+#  - url: https://flic.kr/p/8a738X
+#    image_path: https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg
+#    alt: "Made for open text placement"
+#  - url: https://flic.kr/p/8a6VXP
+#    image_path: https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg
+#    alt: "Fog in the trees"
+#{% include gallery id="gallery" caption="Skills" %}
 ---
-
-
-<h2>Bio</h2>
-
-{% include gallery id="gallery" caption="Skills" %}
-     
-<h2>Skills</h2>
 
 
 <style>
@@ -65,6 +58,10 @@ gallery:
     background-color: #ddd; /* Grey background */
 	border-radius:10px;
 	height: 30px;
+	position:relative;
+    font-size: large;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .skills {
     text-align: right; /* Right-align text */
@@ -73,94 +70,143 @@ gallery:
     color: white; /* White text color */
 	background-color: #0092CA;
 	border-radius:10px;
-	height: 30px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	
 }
+.label-info {
+    display: inline;
+    padding: .25em .6em;
+    font-size: 75%;
+    font-weight: 500;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+	background-color: #0092CA;
+	float:right
+}
+
 .cpp {width: 90%; }
 .pyt {width: 80%;} 
-.jsp {width: 65%;} 
-.php {width: 60%;} 
-.caffe {width: 80%;}
-.torch {width: 65%;}
-.scikit-learn {width: 60%;}
+.jsp {width: 70%;} 
+
+.ml {width: 80%;}
+.cv {width: 70%;}
+.rob {width: 60%;}
 </style>
+
+<h2>Bio</h2>
+Farooq Zuberi<br>
+Wohooooooooooooooo!
+<h2 id="definition-lists">Expertise</h2>
+
+
+<div class="autogen_section autogen_group">
+	<div class="autogen_col span_1_of_2">
+		<dl>
+		  <dt>Computer Programming</dt>
+		  <dd>Definition list division.</dd>
+		  <dt>Machine Learning</dt>
+		  <dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
+		</dl>
+	</div>
+	<div class="autogen_col span_1_of_2">
+		<dl>
+		  <dt>Robotics and Computer Vision</dt>
+		  <dd>Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.</dd>
+		  <dt>Others</dt>
+		  <dd>I’ll let Bill O’Reilly <a href="https://www.youtube.com/watch?v=O_HyZ5aW76c" title="We'll Do It Live">explain</a> this one.</dd>
+		</dl>
+	</div>
+</div>
+
+
+   
+<h2>Skills</h2>
 
 
 <div class="autogen_section autogen_group">
 	<div class="autogen_col span_1_of_2">
 		<div class="progress">
+    	  <div style="position: absolute;z-index: 99;left: 20px;font-size: large;line-height: 30px;color: white;">C++</div>
 		  <div class="skills cpp">90%</div>
+		</div>		
+		<div class="progress">
+		  <div style="position: absolute;z-index: 99;left: 20px;font-size: large;line-height: 30px;color: white;">Python</div>
+		  <div class="skills pyt">80%</div>
 		</div>
 		<div class="progress">
-		  <div class="skills pyt">90%</div>
-		</div>
-		<div class="progress">
-		  <div class="skills jsp">90%</div>
+		  <div style="position: absolute;z-index: 99;left: 20px;font-size: large;line-height: 30px;color: white;">Java, Matlab</div>
+		  <div class="skills jsp">70%</div>
 		</div>
 	</div>
 	<div class="autogen_col span_1_of_2">
-		<div class="progress"><div class="skills caffe">Caffe</div></div>
-		<div class="progress"><div class="skills torch">Torch</div></div>
-		<div class="progress"><div class="skills scikit-learn">scikit-learn</div></div>
-
+		<div class="progress">
+			<div style="position: absolute;z-index: 99;left: 20px;font-size: large;line-height: 30px;color: white;">ML</div>
+			<div class="skills ml">80%</div>
+		</div>
+		<div class="progress">
+			<div style="position: absolute;z-index: 99;left: 20px;font-size: large;line-height: 30px;color: white;">Computer Vision</div>
+			<div class="skills cv">70%</div>
+		</div>
+		<div class="progress">
+			<div style="position: absolute;z-index: 99;left: 20px;font-size: large;line-height: 30px;color: white;">Robotics</div>
+			<div class="skills rob">60%</div>
+		 </div>
 	</div>
 </div>
 
 
-			<div class="grid_16 formations">
-				<h2>Education</h2>
-				<ul>
-					<li>
-						<h4><strong>Masters in Computer Science</strong> à nom de l'école</h4>
-						<span class="lieu">Lieu</span>
-						<span class="dates">Période</span>
-						<p>Clarifiez la formation (les abréviations ne sont pas connues de tout le monde).</p>
-					</li>
-					<li>
-						<h4><strong>Bachelors in Computer Science</strong> à nom de l'école</h4>
-						<span class="lieu">Lieu</span>
-						<span class="dates">Période</span>
-						<p>Clarifiez la formation (les abréviations ne sont pas connues de tout le monde).</p>
-					</li>
-				</ul>
-			</div>
-			
+<h2 id="unordered-lists-nested">Education</h2>
+<ul>
+	<li>
+		<h3>
+			<strong>Masters in Computer Science</strong> 
+			<span class="label-info">2009-2010</span>
+		</h3>
+		<p>Clarifiez la formation (les abréviations ne sont pas connues de tout le monde).</p>
+	</li>
+	<li>
+		<h3>
+			<strong>Masters in Computer Science</strong> 
+			<span class="label-info">2009-2010</span>
+		</h3>
+		<p>Clarifiez la formation (les abréviations ne sont pas connues de tout le monde).</p>
+	</li>
+</ul>
 
-			<!-- Expériences -->
-			<div class="grid_16 experiences">
-				
-				<h2>Experience</h2>
-				<ul>
-					<li>
-						<h4><strong>Nom du poste</strong> chez nom de l'employeur</h4>
-						<span class="lieu">Lieu</span>
-						<span class="dates">Dates</span>
-						<p>Une petite description du poste, décrivez votre rôle et vos 
+
+<h2 id="unordered-lists-nested">Experience</h2>
+<ul>
+	<li>
+		<h3>
+			<strong>Masters in Computer Science</strong> 
+			<span class="label-info">2009-2010</span>
+		</h3>
+		<p>Une petite description du poste, décrivez votre rôle et vos 
 tâches en quelques mots afin que le recruteur en sache plus sur la 
 nature de votre travail.</p>
-					</li>
-					<li>
-						<h4><strong>Nom du poste</strong> chez nom de l'employeur</h4>
-						<span class="lieu">Lieu</span>
-						<span class="dates">Dates</span>
-						<p>Une petite description du poste, décrivez votre rôle et vos 
+	</li>
+	<li>
+		<h3>
+			<strong>Masters in Computer Science</strong> 
+			<span class="label-info">2009-2010</span>
+		</h3>
+		<p>Une petite description du poste, décrivez votre rôle et vos 
 tâches en quelques mots afin que le recruteur en sache plus sur la 
 nature de votre travail.</p>
-					</li>
-				</ul>
-			</div>
-		
-			<!-- Formations -->
-			
-			<div class="grid_16 formations">
-				<h2>Certifications</h2>
-				<ul>
-					<li>
-						<h4><strong>Nom de la formation / diplôme</strong> à nom de l'école</h4>
-						<span class="lieu">Lieu</span>
-						<span class="dates">Période</span>
-						<p>Clarifiez la formation (les abréviations ne sont pas connues de tout le monde).</p>
-					</li>
-				</ul>
-			</div>
+	</li>
+</ul>
+
+
+<h2 id="unordered-lists-nested">Certifications</h2>
+<ul>
+	<li>
+		<h3>
+			<strong>Masters in Computer Science</strong> 
+			<span class="label-info">2009-2010</span>
+		</h3>
+		<p>Clarifiez la formation (les abréviations ne sont pas connues de tout le monde).</p>
+	</li>
+</ul>
