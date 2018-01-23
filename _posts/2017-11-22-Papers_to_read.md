@@ -17,11 +17,11 @@ author_profile: true
 | [Jane Bloggs](#) | $100B  | With hair like that?! Enough said.                           |
 
 
-|	No	|	Name																																	|		Status		|
+| No	|	Name																																	|		Status		|
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-|	1	|	Dynamic Routing Between Capsules	 																									|					|
-|	2	|	Learning Transferable Architectures for Scalable Image Recognition	 																	|					|
-|	3	|	Learning to learn by gradient descent by gradient descent																				|					|
+|	1	|	Dynamic Routing Between Capsules	 																									|			n		|
+|	2	|	Learning Transferable Architectures for Scalable Image Recognition	 																	|			n		|
+|	3	|	Learning to learn by gradient descent by gradient descent																				|			n		|
 |	4	|	Learning to Optimize	 																												|					|
 |	5	|	The Marginal Value of Adaptive Gradient Methods in Machine Learning	 																	|					|
 |	6	|	Densely Connected Convolutional Networks	 																							|					|
@@ -50,7 +50,6 @@ author_profile: true
 |	29	|	ReNet: A Recurrent Neural Network BasedAlternative to Convolutional Networks	 														|					|
 |	30	|	Fully Character-Level Neural Machine Translationwithout Explicit Segmentation															|					|
 |	31	|	End-to-End Training of Deep Visuomotor Policies	 																						|					|
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
