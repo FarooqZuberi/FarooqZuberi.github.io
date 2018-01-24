@@ -1,17 +1,13 @@
 ---
-title: "Hank Quinlan, Horrible Cop, Launches Site"
-date: 2014-04-30
+layout: single
+title: "Test"
+date: 2016-04-30
 categories: Learning
-scope:
-  path: ""
-  type: posts
-values:
-  layout: single
-  author_profile: true
-  read_time: true
-  #comments: true
-  share: true
-  #related: true
+author_profile: true
+path: ""
+read_time: true
+type: posts
+share: true
 ---
 
 

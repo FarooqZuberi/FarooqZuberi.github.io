@@ -10,3 +10,6 @@ deploy:
   keep-history: true
   on:
     branch: master
+email:
+    on_success: change
+    on_failure: change
