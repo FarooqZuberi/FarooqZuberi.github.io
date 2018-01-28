@@ -6,16 +6,16 @@ path: ""
 type: posts
 layout: single
 author_profile: true
-read_time: true
 #comments: true
 share: true
 #related: true
 ---
 
-###Stage: 
-	Concept Development
+### Stage: 
 
-###Checklist:
+Concept Development
+
+### Checklist:
   1. Literature Review
   2. Do the Math
 
