@@ -1,24 +1,13 @@
 ---
 layout: single
 title: "Papers to read"
-date: 2016-04-30
+date: 2018-01-28
 categories: Learning
 author_profile: true
 ---
 
-
-## Tables
-
-| Employee         | Salary |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | $1     | Because that's all Steve Jobs needed for a salary.           |
-| [Jane Doe](#)    | $100K  | For all the blogging she does.                               |
-| [Fred Bloggs](#) | $100M  | Pictures are worth a thousand words, right? So Jane × 1,000. |
-| [Jane Bloggs](#) | $100B  | With hair like that?! Enough said.                           |
-
-
 | No | Name																																  |
-| -= | ---------------------------------------------------------------------------------------------------------------------------------- |
+| -- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | 1  | Dynamic Routing Between Capsules	 																								  |
 | 2  | Learning Transferable Architectures for Scalable Image Recognition	 															  |
 | 3  | Learning to learn by gradient descent by gradient descent																		  |
@@ -50,22 +39,3 @@ author_profile: true
 | 29 | ReNet: A Recurrent Neural Network BasedAlternative to Convolutional Networks	 													  |
 | 30 | Fully Character-Level Neural Machine Translationwithout Explicit Segmentation													  |
 | 31 | End-to-End Training of Deep Visuomotor Policies	 																				  |
-
-
-
-
-
-
-
-No	Name
-1	http://proceedings.mlr.press/v70/bello17a/bello17a.pdf	 
-2	Playing Atari with Deep Reinforcement Learning	 
-3	Asynchronous Methods for Deep Reinforcement Learning	 
-4	NEURAL ARCHITECTURE SEARCH WITH REINFORCEMENT LEARNING	 
-5	Reinforcement Learning for Architecture Search by Network Transformation	 
-6	Going beyond average for reinforcement learning	 
-7	Evolution Strategies as a Scalable Alternative to Reinforcement Learning	 
-8	Neural Map: Structured Memory for Deep Reinforcement Learning
-
-
-Deep Learning Book- RNN chapter
