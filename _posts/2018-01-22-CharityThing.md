@@ -12,10 +12,10 @@ share: true
 #related: true
 ---
 
-###Stage: 
+### Stage: 
 	Concept Development
 
-###Checklist:
+### Checklist:
   1. Literature Review
 	  1. Blockchain relevancy
   2. Find an interested collaborator
