@@ -11,7 +11,7 @@ main:
   - title: "Blog"
     url: /blog/
   - title: "Idea Center"
-    url: //idea-center/
+    url: /idea-center/
   - title: "Learning Center"
     url: /learning-center/
 #  - title: "Quick-Start Guide"
