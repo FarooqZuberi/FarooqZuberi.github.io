@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "tiny Rick"
+title: "The Blog Entry 0"
 date: 2016-04-30
-categories: Idea
+categories: Blog
 author_profile: true
 ---
-Wohoo First Post
-Tiny rick
+
+First Blog Entry. 
