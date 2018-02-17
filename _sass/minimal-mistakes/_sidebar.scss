@@ -64,7 +64,8 @@
     top: 0;
     right: 0;
     width: $right-sidebar-width-narrow;
-    margin-right: -1 * $right-sidebar-width-narrow;
+	/*margin-right: -1 * $right-sidebar-width-narrow;*/
+    margin-right: -200;
     padding-left: 1em;
     z-index: 10;
   }
