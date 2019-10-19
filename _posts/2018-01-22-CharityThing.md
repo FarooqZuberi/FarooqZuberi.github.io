@@ -5,7 +5,7 @@ categories: Idea
 type: posts
 layout: single
 author_profile: true
-visible: 1
+published: false
 #comments: true
 share: true
 #related: true
