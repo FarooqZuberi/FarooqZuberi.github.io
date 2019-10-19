@@ -3,7 +3,7 @@ title: "Charity Crowd Funding Platform"
 date: 2018-01-22
 categories: Idea
 type: posts
-layout: single
+layout: null #single
 author_profile: true
 #comments: true
 share: true
